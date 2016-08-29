@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bartr 2.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="email_et">email</string>
+    <string name="password_et">password</string>
+    <string name="signup_text">Or Sign Up!</string>
+    <string name="signup_name">Enter Name</string>
+    <string name="signup_email">Enter email</string>
+    <string name="signup_password">Enter password</string>
+    <string name="signup_sign">Create an Account</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_item_button">Add Item</string>
+</resources>
