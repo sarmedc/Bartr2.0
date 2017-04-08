@@ -12,6 +12,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
@@ -51,6 +52,7 @@ public class MyList extends Fragment {
     private String filemanagerstring;
     private int width, height, id;
     public static String LIST_SEPARATOR = "__,__";
+    private ViewPager viewPager;
 
     SharedPreferences sp;
 
@@ -82,6 +84,8 @@ public class MyList extends Fragment {
         Bundle bundle = this.getArguments();
         if(bundle != null)
             dbHelper = (DBHelper) bundle.getSerializable("db");
+
+        viewPager.setOffscreenPageLimit(5);
 
         return view;
 
